@@ -41,10 +41,6 @@ class CPerson {
   }
 }
 
-// CPerson.prototype.sayHi = function () {
-//   console.log(this.name + " says hi.");
-// };
-
 class CSuperman extends CPerson {
   constructor(skill, weapon) {
     super("Superman", 190, 85);
